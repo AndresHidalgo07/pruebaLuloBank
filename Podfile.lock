@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (4.10.1)
+  - PokemonAPI (6.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - Kingfisher (~> 4.10.1)
+  - PokemonAPI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - PokemonAPI
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  PokemonAPI: bff9656c1825288e7f028b415ce6276122ad4c6a
+
+PODFILE CHECKSUM: f7ce6326a6ffcedbe715cb1529fe5dc670d6e7a6
+
+COCOAPODS: 1.10.0

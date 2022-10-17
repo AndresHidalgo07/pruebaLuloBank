@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3251B987B474E721A4C0F115 /* Pods_PruebaLuloBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443213BD1D8DBDACA4B36AF9 /* Pods_PruebaLuloBank.framework */; };
+		884AD9E728FC8F720043C2AA /* CollectionViewLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884AD9E628FC8F720043C2AA /* CollectionViewLista.swift */; };
+		884ADA2528FDB2FF0043C2AA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ADA2428FDB2FF0043C2AA /* Service.swift */; };
+		884ADA3C28FDC2160043C2AA /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ADA3B28FDC2160043C2AA /* RoundView.swift */; };
+		884ADA3F28FDC24C0043C2AA /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ADA3E28FDC24C0043C2AA /* RoundImage.swift */; };
+		88B1752F28FA53410025CD58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1752E28FA53410025CD58 /* AppDelegate.swift */; };
+		88B1753128FA53410025CD58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1753028FA53410025CD58 /* SceneDelegate.swift */; };
+		88B1753328FA53410025CD58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1753228FA53410025CD58 /* ViewController.swift */; };
+		88B1753628FA53410025CD58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B1753428FA53410025CD58 /* Main.storyboard */; };
+		88B1753828FA53440025CD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1753728FA53440025CD58 /* Assets.xcassets */; };
+		88B1753B28FA53440025CD58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B1753928FA53440025CD58 /* LaunchScreen.storyboard */; };
+		88B1754B28FA55350025CD58 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1754A28FA55350025CD58 /* APIs.swift */; };
+		88B1754F28FA570D0025CD58 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1754E28FA570D0025CD58 /* Networking.swift */; };
+		88B1755328FA59510025CD58 /* Estructura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1755228FA59510025CD58 /* Estructura.swift */; };
+		88B1756028FA6D600025CD58 /* TableViewLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1755F28FA6D600025CD58 /* TableViewLista.swift */; };
+		88C8432128FB8F83002B205B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8432028FB8F83002B205B /* Util.swift */; };
+		88C8435528FBC6BA002B205B /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8435428FBC6BA002B205B /* DetalleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443213BD1D8DBDACA4B36AF9 /* Pods_PruebaLuloBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaLuloBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5178FAF3FE68E2E98BF4A2E0 /* Pods-PruebaLuloBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaLuloBank.release.xcconfig"; path = "Target Support Files/Pods-PruebaLuloBank/Pods-PruebaLuloBank.release.xcconfig"; sourceTree = "<group>"; };
+		884AD9E628FC8F720043C2AA /* CollectionViewLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLista.swift; sourceTree = "<group>"; };
+		884ADA2428FDB2FF0043C2AA /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		884ADA3B28FDC2160043C2AA /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		884ADA3E28FDC24C0043C2AA /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		88B1752B28FA53410025CD58 /* PruebaLuloBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaLuloBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1752E28FA53410025CD58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88B1753028FA53410025CD58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88B1753228FA53410025CD58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88B1753528FA53410025CD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B1753728FA53440025CD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B1753A28FA53440025CD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88B1753C28FA53440025CD58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B1754A28FA55350025CD58 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		88B1754E28FA570D0025CD58 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		88B1755228FA59510025CD58 /* Estructura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estructura.swift; sourceTree = "<group>"; };
+		88B1755F28FA6D600025CD58 /* TableViewLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLista.swift; sourceTree = "<group>"; };
+		88C8432028FB8F83002B205B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		88C8435428FBC6BA002B205B /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		B567318381F3DA9CA4DAB427 /* Pods-PruebaLuloBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaLuloBank.debug.xcconfig"; path = "Target Support Files/Pods-PruebaLuloBank/Pods-PruebaLuloBank.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B1752828FA53410025CD58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3251B987B474E721A4C0F115 /* Pods_PruebaLuloBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740B78D6AB47385AF206B359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				443213BD1D8DBDACA4B36AF9 /* Pods_PruebaLuloBank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884AD9F628FC974B0043C2AA /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				88B1755F28FA6D600025CD58 /* TableViewLista.swift */,
+				884AD9E628FC8F720043C2AA /* CollectionViewLista.swift */,
+			);
+			path = Celdas;
+			sourceTree = "<group>";
+		};
+		88B1752228FA53410025CD58 = {
+			isa = PBXGroup;
+			children = (
+				88B1752D28FA53410025CD58 /* PruebaLuloBank */,
+				88B1752C28FA53410025CD58 /* Products */,
+				D17C9EECB206EC2EBB645483 /* Pods */,
+				740B78D6AB47385AF206B359 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88B1752C28FA53410025CD58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B1752B28FA53410025CD58 /* PruebaLuloBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B1752D28FA53410025CD58 /* PruebaLuloBank */ = {
+			isa = PBXGroup;
+			children = (
+				88B1754328FA53560025CD58 /* Util */,
+				88B1754728FA53950025CD58 /* Networking */,
+				88B1754528FA53710025CD58 /* Modelo */,
+				88B1754428FA536B0025CD58 /* Vista */,
+				88B1754628FA537E0025CD58 /* Controlador */,
+				88B1752E28FA53410025CD58 /* AppDelegate.swift */,
+				88B1753028FA53410025CD58 /* SceneDelegate.swift */,
+				88B1753728FA53440025CD58 /* Assets.xcassets */,
+				88B1753C28FA53440025CD58 /* Info.plist */,
+			);
+			path = PruebaLuloBank;
+			sourceTree = "<group>";
+		};
+		88B1754328FA53560025CD58 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				88C8432028FB8F83002B205B /* Util.swift */,
+				884ADA3B28FDC2160043C2AA /* RoundView.swift */,
+				884ADA3E28FDC24C0043C2AA /* RoundImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		88B1754428FA536B0025CD58 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				88B1753928FA53440025CD58 /* LaunchScreen.storyboard */,
+				88B1753428FA53410025CD58 /* Main.storyboard */,
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		88B1754528FA53710025CD58 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				88B1755228FA59510025CD58 /* Estructura.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		88B1754628FA537E0025CD58 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				884AD9F628FC974B0043C2AA /* Celdas */,
+				88B1754928FA53E60025CD58 /* DetalleControlador */,
+				88B1754828FA53D30025CD58 /* VistaControlador */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+		88B1754728FA53950025CD58 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				88B1754A28FA55350025CD58 /* APIs.swift */,
+				88B1754E28FA570D0025CD58 /* Networking.swift */,
+				884ADA2428FDB2FF0043C2AA /* Service.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		88B1754828FA53D30025CD58 /* VistaControlador */ = {
+			isa = PBXGroup;
+			children = (
+				88B1753228FA53410025CD58 /* ViewController.swift */,
+			);
+			path = VistaControlador;
+			sourceTree = "<group>";
+		};
+		88B1754928FA53E60025CD58 /* DetalleControlador */ = {
+			isa = PBXGroup;
+			children = (
+				88C8435428FBC6BA002B205B /* DetalleViewController.swift */,
+			);
+			path = DetalleControlador;
+			sourceTree = "<group>";
+		};
+		D17C9EECB206EC2EBB645483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B567318381F3DA9CA4DAB427 /* Pods-PruebaLuloBank.debug.xcconfig */,
+				5178FAF3FE68E2E98BF4A2E0 /* Pods-PruebaLuloBank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B1752A28FA53410025CD58 /* PruebaLuloBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B1753F28FA53440025CD58 /* Build configuration list for PBXNativeTarget "PruebaLuloBank" */;
+			buildPhases = (
+				D68E92A817DF80D2FA9B429D /* [CP] Check Pods Manifest.lock */,
+				88B1752728FA53410025CD58 /* Sources */,
+				88B1752828FA53410025CD58 /* Frameworks */,
+				88B1752928FA53410025CD58 /* Resources */,
+				77D7E08534399884218B6A31 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PruebaLuloBank;
+			productName = PruebaLuloBank;
+			productReference = 88B1752B28FA53410025CD58 /* PruebaLuloBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B1752328FA53410025CD58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					88B1752A28FA53410025CD58 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 88B1752628FA53410025CD58 /* Build configuration list for PBXProject "PruebaLuloBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B1752228FA53410025CD58;
+			productRefGroup = 88B1752C28FA53410025CD58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B1752A28FA53410025CD58 /* PruebaLuloBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B1752928FA53410025CD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B1753B28FA53440025CD58 /* LaunchScreen.storyboard in Resources */,
+				88B1753828FA53440025CD58 /* Assets.xcassets in Resources */,
+				88B1753628FA53410025CD58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77D7E08534399884218B6A31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaLuloBank/Pods-PruebaLuloBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaLuloBank/Pods-PruebaLuloBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaLuloBank/Pods-PruebaLuloBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68E92A817DF80D2FA9B429D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaLuloBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B1752728FA53410025CD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C8432128FB8F83002B205B /* Util.swift in Sources */,
+				88B1753328FA53410025CD58 /* ViewController.swift in Sources */,
+				88B1754F28FA570D0025CD58 /* Networking.swift in Sources */,
+				88B1752F28FA53410025CD58 /* AppDelegate.swift in Sources */,
+				884ADA2528FDB2FF0043C2AA /* Service.swift in Sources */,
+				88B1754B28FA55350025CD58 /* APIs.swift in Sources */,
+				88C8435528FBC6BA002B205B /* DetalleViewController.swift in Sources */,
+				88B1753128FA53410025CD58 /* SceneDelegate.swift in Sources */,
+				88B1755328FA59510025CD58 /* Estructura.swift in Sources */,
+				884ADA3C28FDC2160043C2AA /* RoundView.swift in Sources */,
+				88B1756028FA6D600025CD58 /* TableViewLista.swift in Sources */,
+				884ADA3F28FDC24C0043C2AA /* RoundImage.swift in Sources */,
+				884AD9E728FC8F720043C2AA /* CollectionViewLista.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88B1753428FA53410025CD58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B1753528FA53410025CD58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88B1753928FA53440025CD58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B1753A28FA53440025CD58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B1753D28FA53440025CD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88B1753E28FA53440025CD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B1754028FA53440025CD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B567318381F3DA9CA4DAB427 /* Pods-PruebaLuloBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PruebaLuloBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUI.PruebaLuloBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B1754128FA53440025CD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5178FAF3FE68E2E98BF4A2E0 /* Pods-PruebaLuloBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PruebaLuloBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUI.PruebaLuloBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B1752628FA53410025CD58 /* Build configuration list for PBXProject "PruebaLuloBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B1753D28FA53440025CD58 /* Debug */,
+				88B1753E28FA53440025CD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B1753F28FA53440025CD58 /* Build configuration list for PBXNativeTarget "PruebaLuloBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B1754028FA53440025CD58 /* Debug */,
+				88B1754128FA53440025CD58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B1752328FA53410025CD58 /* Project object */;
+}
